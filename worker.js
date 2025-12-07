@@ -9,8 +9,8 @@ export default {
 // Configuration and Constants
 const MAX_BODY_SIZE = 10000; // Max body size to log (bytes)
 const ENABLE_LOGGING = true;
-const LOG_REQUEST_BODY = true; // Set false to disable logging of request payload
-const LOG_RESPONSE_BODY = true; // Set false to disable logging of response payload
+const LOG_REQUEST_BODY = false; // Set false to disable logging of request payload
+const LOG_RESPONSE_BODY = false; // Set false to disable logging of response payload
 
 async function handleRequest(request, env, ctx) {
   const startTime = Date.now();
